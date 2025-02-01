@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    background-image: radial-gradient(blue,black,rgb(72, 189, 228));
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+button{
+    padding:8px 13px;
+    background-color: skyblue;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:0.8em;
+    font-weight:600;
+    font-family: Consolas;
+    margin:0px 4px;
+    cursor: pointer;
+}
+button:hover{
+    transform:scale(1.1);
+}
+button:active{
+    background-color: rgb(88, 235, 235);
+}
+#count{
+    padding:10px;
+    text-align:center;
+    font-family:"consolas";
+    font-size:1.5rem;
+    border:none;
+    border-radius: 7px;
+}
+#start-stop-btns{
+    text-align:center;
+}
+
