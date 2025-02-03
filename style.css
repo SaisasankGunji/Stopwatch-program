@@ -6,6 +6,12 @@ body{
     align-items:center;
     height:100vh;
 }
+#heading{
+    text-align: center;
+    color:white;
+    font-family: "consolas";
+    font-weight: 600;
+}
 button{
     padding:8px 13px;
     background-color: skyblue;
@@ -35,4 +41,11 @@ button:active{
 #start-stop-btns{
     text-align:center;
 }
-
+#display{
+    text-align: center;
+    margin-bottom: 10px;
+    color:white;
+    font-size:1.8rem;
+    font-family: consolas;
+    font-weight: 600;
+}
