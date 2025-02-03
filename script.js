@@ -6,8 +6,7 @@ let isRunning=false;
 
 document.getElementById("start").onclick=function(){
     if(!isRunning){
-        currentTime=Date.now();
-        startTime=currentTime-elapsedTime;
+        startTime=Date.now()-elapsedTime;
         timer=setInterval(update,10);
         isRunning=true;
     }
@@ -21,6 +20,8 @@ document.getElementById("stop").onclick=function(){
 }
 document.getElementById("reset").onclick=function(){
     clearInterval(timer)
+    startTime=0;
+    elapsedTime=0;
     isRunning=false
     display.textContent="00:00:00:00"
 }
